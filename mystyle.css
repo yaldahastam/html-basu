@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&family=Noto+Naskh+Arabic&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Alexandria", sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #B0E0E6;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Alexandria", sans-serif;
+    font-style:  #000080;
+    
+}
+
+header .navigation a{
+    color: #000080 ;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 2px 15px;
+    border-radius: 20px;
+    float: center;
+    
+}
+header .navigation{
+    margin-left: 100px;
+}
+
+
+
+.content{
+    max-width: 800px;
+    margin: 80px 120px;
+    font-size: larger;
+}
+
+.content .info h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.content .info-btn{
+    font-size: 23px;
+    text-decoration: navy;
+}
+
+
